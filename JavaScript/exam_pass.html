@@ -46,21 +46,27 @@
                 document.write('<h1>'+name+' passes with distinction.</h1>')
             }
             if (html >= 81) {
-                document.write('<h1>HTML is pass with distinction.</h1>')
+                document.write('<h1>HTML is passed with distinction.</h1>')
             }else if (html < 50) {
                 document.write('<h1>HTML is fail!</h1>')
             }
+            if (js >= 81) {
+                document.write('<h1>JavaScript is passed with distinction.</h1>')
+            }else if (js < 50) {
+                document.write('<h1>JavaScript is fail!</h1>')
+            }
             if (css >= 81) {
-                document.write('<h1>CSS is pass with distinction.</h1>')
+                document.write('<h1>CSS is passed with distinction.</h1>')
             }else if (css < 50) {
                 document.write('<h1>CSS is fail!</h1>')
             }
-            if (js >= 81) {
-                document.write('<h1>JavaScript is pass with distinction.</h1>')
-            }else if (js > 50) {
-                document.write('<h1>JavaScript is fail!</h1>')
+                document.write('<h1>HTML = '+html+'.</h1>');
+                document.write('<h1>JavaScript = '+js+'.</h1>');
+                document.write('<h1>CSS = '+css+'.</h1>');
+
+            if (html >= 90 && js >= 90 && css >= 90) {
+                document.write('<h1>Congratulations! You pass the exam with <q>flying marks</q>.</h1>')
             }
-            
         }
     </script>
 </body>

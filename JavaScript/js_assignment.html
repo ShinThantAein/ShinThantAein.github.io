@@ -8,20 +8,27 @@
 </head>
 <body>
     <script>
+        let math = prompt('Enter a number that you want.Then it will come out the multiplication of a number that you entered.');
+        console.log(math);
 
-    //*****
-    //****
-    //***
-    //**
-    //*
+        for (let n = 1; n <= 12; n++){
+            document.write(`<h3>${math} x ${n} = ${math*n}</h3>`)
+        }
 
-         for (let a = 5; a > 0; a++){
-            for (let b = 5; b >= a; b++){
-                document.write('*')
+        //*****
+        //****
+        //***
+        //**
+        //*
+
+
+        for (let a = 0; a < 5; a++){
+            for (let b = 4; b >= a; b--){
+            document.write('*')
             }
             document.write('<br>')
-         }
-         
+        }    
+
     </script>
 </body>
 </html>

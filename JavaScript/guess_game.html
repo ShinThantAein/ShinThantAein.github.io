@@ -14,10 +14,10 @@
         console.log(guess);
 
         while (secreteNo != guess){
-            if (secreteNo > guess){
-                alert('Higer,Try again');
+            if (secreteNo < guess){
+                alert('Higher,Try again');
             }else {
-                alert('Lover,Try again');
+                alert('Lower,Try again');
             }
 
             guess = prompt('Guess a number between 1 to 10.');

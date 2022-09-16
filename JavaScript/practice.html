@@ -7,34 +7,201 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>JavaScript!</h1>
     <script>
+     // Syntax 
+    var firstname = 'Song Hye-Kyo';
+    console.log(firstname);
+    var sum = 45 + 45 - 50;
+    console.log(sum);
+    var Firstname = 'Suzy' 
+    console.log(Firstname);
 
-        for (let i = 1; i <= 5; i++){
-            document.write('<h3>Hello JaVAScript!</h3>')
-        }
+    //Variable
+    var a = 13; //Global variable
+    console.log(a);
+    let b = 23; //Block Scope variable
+    console.log(b);
+    const c = 33; //Constant varialble
+    console.log(c);
 
-        for (let a = 1; a <= 5; a++){
-            for (let b = 1; b <= 5; b++){
-                document.write('*')
-            }
-            document.write('<br>')
-        }
+    a = 130;
+    console.log(a);
+    b = 230;
+    console.log(b);
+    //c = 330;
+    //console.log(c);
 
-        for (let c = 0; c < 5; c++){
-            for (let d = 0; d <= c; d++){
-                document.write('*')
-            }
-            document.write('<br>')
-        }
+    var a = 103;
+    console.log(a);
+    //let b = 203;
+    //console.log(b);
+    //const c = 303;
+    //console.log(c);
 
-        for (let e = 0; e < 5; e++){
-            for (let f = 0; f >= e; e++){
-                document.write('*')
-            }
-            document.write('<br>')
-        }
+    if(a == 103){
+        var num1 = 15;
+        console.log(num1);
+        let num2 = 25;
+        console.log(num2);
+    }
+    console.log(num1);
+    //console.log(num2);
 
-        
+    let d=11; e=13; f=14;
+    let h;
+    console.log(h);
+    let i = null;
+    console.log(i);
+
+
+    //Data Type [String,Numeric,Boolean]
+    //String Data Type
+    let name = "Hein Min Htet";
+    console.log(name);
+    console.log(typeof(name));
+    let job = 'Web Developer';
+    console.log(job);
+    console.log(typeof(job));
+    let partTime_job = `Trainer`;
+    console.log(partTime_job);
+    console.log(typeof(partTime_job));
+
+    //Numeric Data Type
+    let age = 25;
+    console.log(age);
+    console.log(typeof(age));
+
+    //Boolean Data Type
+    let js = true;
+    console.log(js);
+    console.log(typeof(js));
+    let java = false;
+    console.log(java);
+    console.log(typeof(java));
+
+    //Array
+    let arr = ['a','b','c',3,6,8];
+    console.log(arr);
+    console.log(arr[2]);
+    console.log(typeof(arr));
+
+    let arr1 = new Array('u','n','m');
+    console.log(arr1);
+    console.log(arr1[2]);
+    console.log(typeof(arr1));
+
+    let arr2 = [2,3,4,'a','i',true,false,
+    ['g','h','i']];
+    console.log(arr2);
+    console.log(arr2[7] [1]);
+
+    //Operator
+
+    //Additional Operator
+    let five = 2 + 3;
+    console.log(five);
+    let six = five + 1;
+    console.log(six);
+    let sixOne = 'six' + 1;
+    console.log(sixOne);
+    let str = '23' + '23';
+    console.log(str);
+    let number = 26;
+    number += 3; //number = number + 3
+    console.log(number);
+
+    //Substration Operator
+    let four = 8 - 4;
+    console.log(four);
+    let num = 8;
+    num -= 2; //number = number - 3
+    console.log(num);
+
+    //Division Operator
+    let div1 = 50 / 10;
+    console.log(div1);
+    let div2 = 41 / 7;
+    console.log(div2);
+    console.log(div2.toFixed(2));
+    let div3 = 1 / 0;
+    console.log(div3);
+    let div = 32;
+    div /= 4; //div = div / 4
+    console.log(div);
+
+    //Remainder Operator
+    let rem1 = 45 % 3;
+    console.log(rem1);
+    let rem2 = 32 % 5;
+    console.log(rem2);
+    let rem3 = 1 % 0;
+    console.log(rem3); //Not a Number
+    let rem = 21;
+    rem %= 9; //rem = rem % 9
+    console.log(rem);
+
+    //Multiplication Operator
+    let mul1 = 9 * 9;
+    console.log(mul1);
+    let mul2 = 20 * 32;
+    console.log(mul2);
+    let mul = 10;
+    mul *= 45; //mul = mul * 10
+    console.log(mul);
+
+    //Exponentiation Operator
+    let exp1 = 4 ** 4;
+    console.log(exp1);
+    let exp2 = 6 ** 5;
+    console.log(exp2);
+    let exp = 8;
+    exp **= 3; //exp = exp ** 3
+    console.log(exp);
+
+    //Precendenc
+    // * / %
+    // + -
+    // =
+    let total = 5 + 54 / 3 * 9 - 7;
+    console.log(total);
+
+    //Comparisons Operator
+    let n = 16;
+    let m = '16';
+    console.log(n < 5);
+    console.log(n > 5);
+    console.log(n < 32);
+    console.log(n < 18);
+    console.log(n > 17);
+    console.log(n <= 16);
+    console.log(n >= 23);
+    console.log(n < 21);
+    console.log(n == m);
+    console.log(n === m);
+    console.log(n != m);
+    console.log(n !== m);
+
+    //Logical Operator
+    //AND &&
+    //OR ||
+    //NOR !
+
+    console.log(12 < 13 && 23 < 24 && 32 > 21);
+    console.log(true && true && true);
+    console.log(12 < 13 && 23 < 24 && 32 < 21);
+    console.log(true && true && false);
+
+    console.log(12 < 13 || 23 > 24 || 32 < 21);
+    console.log(true || false || false);
+
+    //AND *
+    //OR + 
+    // 1 * 1 * 0
+    // 1 + 0 + 0
+
+    
+
    </script>
 </body>
 </html>

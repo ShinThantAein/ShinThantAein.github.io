@@ -336,9 +336,90 @@
             document.write('*')
             }
             document.write('<br>')
-        }   
+        }  
 
+        //******
+        //****
+        //**
+
+        for (let e = 6; e >= 2; e -= 2){
+            for (let f = e; f >= 1; f--){
+                document.write('*')
+            }
+            document.write('<br>')
+        }
+
+        //While Loop
+
+        let whl = 1;
+          while(whl <= 10){
+            document.write(`<h3>This number is ${whl}.</h3>`)
+            whl++
+          }
+
+        //Do While Loop
+        let no = 1;
+        do{
+            document.write(`<h3>This no is ${no}.</h3>`)
+            no++
+        }while(no <= 10);
+
+        //Function
+
+        function funName() {
+            document.write(`<h3>Hello Function!</h3>`)
+        }
+        funName()
         
-   </script>
+        function adding(num1,num2) {
+            let add_result = (num1 + num2)
+            document.write(`<h3>Adding result is ${add_result}.</h3>`)
+        }
+        adding(45,55)
+
+        function substraction(no1=50,no2=20) {
+            let sub_result = (no1 - no2)
+            document.write(`<h3>Substraction result is ${sub_result}.</h3>`)
+        }
+        substraction()
+        substraction(100,40)
+
+        function getSize(length,width,heigh) {
+            let area = length * width;
+            let volume = length * width * heigh;
+            return [area,volume]
+        }
+
+        let area = getSize(5,2)[0];
+        let volume = getSize(5,2,4)[1];
+        document.write(`<h3>Area is ${area}.</h3>`)
+        document.write(`<h3>Volume is ${volume}.</h3>`)
+
+        //Object
+
+        let hotel = {
+            name: 'Tzuyu',
+            rooms: 50,
+            booked: 20,
+            pool: true,
+            roomType: ['twin','double','suite'],
+            checkAvailabality: function () {
+                return this.rooms-this.booked;
+            }
+        }
+
+        let hotelName = hotel.name;
+        document.write(`<h3>Hotel name is ${hotelName}`);
+        let freeRoom = hotel.checkAvailabality();
+        document.write(`<h3>Free room is ${freeRoom}.</h3>`)
+
+        hotel.garden = false;
+        console.log(hotel);
+
+        delete hotel.garden;
+        console.log(hotel);
+
+
+    </script>
 </body>
 </html>

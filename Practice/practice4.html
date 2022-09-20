@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading">Image Preparing</h1>
+    <button onclick="action()">Action</button>
+    <br><br>
+    <img src="jsdom1.jpg" alt="" id="image" width="400", height="200">
+    <br><br>
+    <img src="jsdom2.png" alt="" id="imga" width="400", height="200" onmouseover="big()" onmouseout="normal()">
+
+    <script>
+        function action() {
+           // alert('Hello');
+           let img = document.querySelector('#image');
+           img.style.width = '600px';
+           img.style.height = '350px';
+
+           document.querySelector('#heading').style.color = 'violet';
+           document.querySelector('#heading').style.backgroundColor = 'white';
+        }
+
+        let image = document.querySelector('#imga')
+
+        function big() {
+            console.log('big');
+            image.style.width = '600px';
+            image.style.height = '350px';
+        }
+
+        function normal() {
+            console.log('normal');
+            image.style.width = '400px';
+            image.style.height = '200px';
+        }
+    </script>
+
+    
+</body>
+</html>

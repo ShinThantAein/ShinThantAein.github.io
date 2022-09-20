@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading">CSS Manimulation with Dom</h1>
+    <button onclick="action()">Action</button>
+    <br><br>
+    <img src="jsdom1.jpg" alt=""  id="img"  width="400" height="300">
+    <br><br>
+    <img src="jsdom2.png" alt=""  id="image"  width="400" height="250" onmouseover="big()" onmouseout="normal()">
+
+    <script>
+        function action() {
+            //alert('Hello');
+        let img = document.querySelector('#img');
+        img.style.width = '500px';
+        img.style.heigh = '300';
+
+        document.querySelector('#heading').style.color = red;
+        document.querySelector('#heading').style.backgroudColor = black;
+        }
+        
+        let image = document.querySelector('#image');
+        
+        function big() {
+            console.log('big');
+            image.style.width = '550px';
+            image.style.heigh = '350px';
+        }
+        
+        function normal() {
+            console.log('normal');
+            image.style.width = '400px';
+            image.style.heigh = '250px';
+        }
+
+    </script>
+</body>
+</html>

@@ -418,8 +418,115 @@
 
         delete hotel.garden;
         console.log(hotel);
+    </script>
 
+        "DOM"
+
+        <h1 id="heading">DOM <em>Selector</em></h1>
+        <h3 id="lg">Languages</h3>
+        <p class="lang">HTML</p>
+        <p class="lang">CSS</p>
+        <p class="lang">JavaScript</p>
+        <h2 id="add1"></h2>
+        <p id="add2"></p>
+
+    <script>
+        let heading = document.getElementById('heading');
+        console.log(heading);
+        console.log(heading.innerHTML);
+        console.log(heading.innerText);
+
+        let add1 = document.getElementById('add1');
+        console.log(add1);
+        let add2 = document.getElementById('add2');
+        console.log(add2);
+        add1.innerHTML = '<i>This is innerHTML.</i>';
+        add2.innerText = '<i>This is innerText.</i>';
+        
+        let class_lang = document.getElementsByClassName('lang');
+       console.log(class_lang);
+       console.log(class_lang[1]);
+       console.log(class_lang[1].innerText);
+
+       let tag_name = document.getElementsByTagName('p');
+       console.log(tag_name);
+       console.log(tag_name[0]);
+       console.log(tag_name[0].innerHTML);
+
+       let q_lg = document.querySelector('#heading');
+        console.log(q_lg);
+
+        let q_lang = document.querySelector('.lang');
+        console.log(q_lang);
+
+        let q_tag = document.querySelector('p');
+        console.log(q_tag);
+
+        let q_lang_all = document.querySelectorAll('.lang');
+        console.log(q_lang_all);
+
+        let q_tag_all = document.querySelectorAll('p');
+        console.log(q_lang_all);
 
     </script>
+
+    <h1 id="create" onclick="changeColor()">Create TextNode, Element and Attribute</h1>
+    <p id="text_node"></p>
+    <button onclick="create_textNode()">Create TextNode</button>
+    <br><br>
+    <button onclick="create_element()">Create Element</button>
+    <br><br>
+    <input type="text" name="name" id="name">
+    <button onclick="adding()">Add</button>
+    <ul id="ulist">
+        <li>Shin Thant Eain</li>
+    </ul>
+
+    <script>
+        function create_textNode() {
+            //alert('Hello');
+            let text = document.createTextNode('Hello JavaScript DOM.');
+            console.log(text);
+            
+            let p = document.querySelector('#text_node');
+            p.appendChild(text);
+        }
+
+        function create_element() {
+           // alert('Hello');
+            let ele = document.createElement('h3');
+            console.log(ele);
+
+            ele.innerText = 'This is Create Element.';
+            console.log(ele);
+            document.body.appendChild(ele);
+        }
+   
+        function adding() {
+           // alert('hello');
+           let info = document.querySelector('#name').value;
+           console.log(info);
+           let list = document.createElement('li');
+           list.innerText = info;
+           console.log(list);
+           let ul = document.querySelector('#ulist');
+           ulist.appendChild(list);
+        }
+   
+        function changeColor() {
+            //alert('Hola');
+            let heading = document.querySelector('#create');
+            let attr = heading.getAttribute('style');
+            console.log(attr);
+            if(attr){
+                heading.removeAttribute('style');
+            }else{
+                heading.setAttribute('style','color:red');
+            }
+        }
+
+    </script>
+
+    
 </body>
 </html>

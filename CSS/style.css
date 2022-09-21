@@ -1,0 +1,25 @@
+h1 {
+    color: #0318fc; 
+    text-align: center;
+    font-size: 35px;
+    width: 100%;
+}
+
+/* Universal Selector */
+* {
+    color: yellowgreen;
+   /* margin: 0px;
+    padding: 0px; */
+}
+
+/* Tag/Element Selector */
+small {
+    display: inline-block;
+    text-indent: 50px;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    line-height: 40px;
+    color: blueviolet;
+    font-size: 24px;
+    font-style: italic;
+}

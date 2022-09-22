@@ -7,7 +7,7 @@ h1 {
 
 /* Universal Selector */
 * {
-    color: yellowgreen;
+    color: rgb(250, 21, 21);
    /* margin: 0px;
     padding: 0px; */
 }
@@ -19,7 +19,54 @@ small {
     letter-spacing: 10px;
     word-spacing: 20px;
     line-height: 40px;
-    color: blueviolet;
+    color: rgb(230, 17, 166);
     font-size: 24px;
     font-style: italic;
+}
+
+/* Attribute Selector */
+a[title="google"] {
+    color: rgb(235, 42, 67);
+}
+
+/* Id Selector */
+#idselector {
+    color: rgb(240, 226, 27);
+}
+
+/* Class Selector */
+.class-selector {
+    color: rgb(72, 211, 30);
+    font-size: x-large;
+    word-spacing: 20px;
+    line-height: 30px;
+}
+
+/* Desc Selector */
+.desc a{
+    color: rgb(224, 51, 201);
+}
+
+.child>a{
+    color: rgb(15, 189, 174);
+}
+
+/* Pseudo */
+a:link {
+    color: red;
+}
+a:hover {
+    color: green;
+    letter-spacing: 10px;
+}
+a:active {
+    color: yellow;
+}
+a:visited {
+    color: rgb(36, 39, 233);
+}
+
+:target {
+    color: rgb(73, 26, 184);
+    border: 1px solid black;
 }

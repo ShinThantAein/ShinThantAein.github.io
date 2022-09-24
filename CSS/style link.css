@@ -1,0 +1,22 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+
+a:link {
+    color: rgb(15, 196, 202);
+}
+
+a:visited {
+    color: rgb(236, 25, 53);
+}
+
+a:hover {
+    color: blue;
+    letter-spacing: 10px;
+    font-size: 15px;
+}
+
+a:active {
+    color: rgb(11, 197, 26);
+}

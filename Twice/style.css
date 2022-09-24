@@ -1,0 +1,47 @@
+a:link {
+    color: blue;
+    font-size: 27px;
+}
+#twice {
+    text-align: center;
+    font-size: 33px;
+}
+
+#twice:hover {
+    color: red;
+}
+#nayeon:hover {
+    color: skyblue;
+}
+#jeongyeon:hover {
+    color: rgb(85, 226, 19);
+}
+#momo:hover {
+    color: pink;
+}
+#sana:hover {
+    color: purple;
+}
+#jihyo:hover {
+    color: aquamarine;
+}
+#mina:hover {
+    color: rgb(34, 129, 5);
+}
+#dahyun:hover {
+    color: rgb(207, 8, 191);
+}
+#chaeyoung:hover {
+    color: rgb(212, 182, 10);
+}
+#tzuyu:hover {
+    color: blue;
+}
+
+span {
+    font-size: 40px;
+}
+
+#song {
+    font-size: 30px;
+}

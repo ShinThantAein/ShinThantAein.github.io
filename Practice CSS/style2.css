@@ -1,0 +1,15 @@
+#id-selector {
+    color: rgb(18, 197, 137);
+}
+
+.class-selector {
+    color: rgb(15, 141, 224);
+}
+
+.class-desc a{
+    color: brown;
+}
+
+.class-child>a {
+    color: rgb(245, 31, 31);
+}

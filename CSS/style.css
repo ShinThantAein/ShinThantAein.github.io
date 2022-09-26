@@ -6,11 +6,11 @@ h1 {
 }
 
 /* Universal Selector */
-* {
+/* * {
     color: rgb(250, 21, 21);
-   /* margin: 0px;
-    padding: 0px; */
-}
+    margin: 0px;
+    padding: 0px; 
+} */
 
 /* Tag/Element Selector */
 small {
@@ -69,4 +69,30 @@ a:visited {
 :target {
     color: rgb(73, 26, 184);
     border: 1px solid black;
+}
+
+/* Border */
+
+.border1 {
+    border: 3px double rgb(36, 99, 236);
+} 
+
+.bordertwo {
+    border-right: 2px solid red;
+}
+
+.border-width {
+    border-width: thin;
+    border-style: dashed;
+}
+
+.borderstyle {
+    border-style: dashed;
+    /* all four T / B / L / R */
+    /* border-style: dashed solid; */
+    /* T&B / L&R */
+    /* border-style: double solid dotted; */
+    /* T / L&R / B */
+    border-style: dotted double solid dashed;
+    /* T / B / L / R */
 }

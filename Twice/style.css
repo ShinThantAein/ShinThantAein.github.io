@@ -47,3 +47,26 @@ span {
     text-indent: 50px;
     font-size: 30px;
 }
+
+.table {
+    width: 60%;
+    margin: auto;
+}
+
+.na {
+    display: inline-block;
+    text-indent: 50px;
+    font-size: 30px;
+}
+
+.jeong {
+    display: inline-block;
+    text-indent: 50px;
+    font-size: 30px;
+}
+
+.momo {
+    display: inline-block;
+    text-indent: 50px;
+    font-size: 30px;
+}

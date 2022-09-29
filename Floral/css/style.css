@@ -1,0 +1,116 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo {
+    width: 100px;
+    height: 70px;
+    margin-top: 5px;
+    margin-left: 40px;
+}
+
+.brand_name {
+    position: absolute;
+    top: 30px;
+    left: 85px;
+    font-family: Courgette;
+}
+
+.navbar ul {
+    float: right;
+}
+
+.navbar div {
+    display: inline-block;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 40px;
+}
+
+a:link {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+    letter-spacing: 5px;
+}
+
+@font-face {
+    font-family: Courgette;
+    src: url(../Courgette/Courgette-Regular.ttf);
+}
+
+/* Contact */
+
+.contact {
+    background-color: rgb(55, 121, 245);
+}
+
+.contacth {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    margin-top: 30px;
+}
+
+.contactp {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.con div {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    width: 450px;
+    height: 500px;
+    margin-top: 35px;
+    display: inline-block;
+}
+
+.con1 {
+    position: relative;
+    left: 60px;
+}
+
+.con2 {
+    position: relative;
+    left: 80px;
+    right: 20px;
+}
+
+.flo {
+    position: absolute;
+    top: 30px;
+    left: 35px;
+    width: 380px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+}
+
+.con2 {
+    width: 30px;
+    height: 30px;
+}
+
+.twi {
+    position: absolute;
+    top: 460px;
+    left: 120px;
+    font-size: 15px;
+    font-style: italic;
+}

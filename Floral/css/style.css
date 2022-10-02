@@ -17,8 +17,8 @@
 
 .brand_name {
     position: absolute;
-    top: 25px;
-    left: 85px;
+    top: 28px;
+    left: 40px;
     font-family: Courgette;
     font-size: 20px;
     color: #f37da4;
@@ -62,8 +62,8 @@
 
 .bunner_text {
     position: absolute;
-    top: 250px;
-    left: 100px;
+    top: 200px;
+    left: 300px;
     z-index: 1;
 }
 
@@ -91,7 +91,7 @@
 .product_header {
     text-align: center;
     margin-top: 50px;
-    color: #0f0f0f;
+    color: black;
     font-family: Courgette;
 }
 
@@ -120,18 +120,19 @@
 .add_to_cart {
     border-radius: 15px;
     color: white;
-    background-color: #f32a6d;
+    background-color: #f37da4;
     padding: 10px 15px;
-    border: 1px solid #f32a6d;
+    border: 1px solid #fc548c;
 }
 
 .add_to_cart:hover {
     cursor: pointer;
+    background-color: #fc397a;
 }
 
 .discount {
     color: red;
-    font-size: 12px;
+    font-size: 13px;
     text-decoration: line-through;
 }
 
@@ -139,12 +140,13 @@
     font-size: 18px;
     font-weight: bold;
     margin-top: -5px;
-    color: #f32a6d;
+    color: #f86395;
 }
 
 .name {
     font-size: 14px;
 }
+
 
 .img_footer {
     margin-top: 50px;
@@ -193,4 +195,4 @@
 
 .float_word {
     margin-left: 100px;
-}
+} 

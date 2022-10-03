@@ -62,7 +62,7 @@
 
 .bunner_text {
     position: absolute;
-    top: 200px;
+    top: 180px;
     left: 300px;
     z-index: 1;
 }
@@ -115,13 +115,16 @@
     width: 215px;
     height: 264px;
     border-radius: 5px;
+    object-fit: cover;
 }
 
 .add_to_cart {
-    border-radius: 15px;
+    width: 90px;
+    height: 30px;
+    border-radius: 12px;
     color: white;
     background-color: #f37da4;
-    padding: 10px 15px;
+    padding: auto;
     border: 1px solid #fc548c;
 }
 
@@ -136,21 +139,21 @@
     text-decoration: line-through;
 }
 
+.name {
+    font-size: 14px;
+    font-weight: 500;
+}
+
 .amount {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: bold;
     margin-top: -5px;
     color: #f86395;
 }
 
-.name {
-    font-size: 14px;
-}
-
-
 .img_footer {
     margin-top: 50px;
-    width: 1077px;
+    width: 100%;
     height: 250px;
 }
 
@@ -191,6 +194,7 @@
     float: left;
     margin-left: 40px;
     border-radius: 10px;
+    object-fit: cover;
 }
 
 .float_word {

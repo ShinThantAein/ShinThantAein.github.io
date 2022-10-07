@@ -2,3 +2,291 @@
     font-family: Courgette;
     src: url(../Courgette/Courgette-Regular.ttf);
 }
+
+.blog_1 img,
+.blog_2 img,
+.blog_3 img,
+.blog_4 img,
+.blog_5 img,
+.blog_6 img,
+.blog_7 img,
+.blog_8 img,
+.blog_9 img,
+.blog_10 img {
+    width: 220px;
+    height: 220px;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.blog h2 {
+    color: black;
+    font-family: Courgette;
+}
+
+.blog_1,
+.blog_2,
+.blog_3,
+.blog_4,
+.blog_5,
+.blog_6,
+.blog_7,
+.blog_8,
+.blog_9,
+.blog_10 {
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 90%;
+    height: 220px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.blog_1 img {
+    float: left;
+}
+
+.clear_1 {
+    clear: both;
+}
+
+.blog_2 img {
+    float: left;
+}
+
+.clear_2 {
+    clear: both;
+}
+
+.blog_3 img {
+    float: left;
+}
+
+.clear_3 {
+    clear: both;
+}
+
+.blog_4 img {
+    float: left;
+}
+
+.clear_4 {
+    clear: both;
+}
+
+.blog_5 img {
+    float: left;
+}
+
+.clear_5 {
+    clear: both;
+}
+
+.blog_6 img {
+    float: left;
+}
+
+.clear_6 {
+    clear: both;
+}
+
+.blog_7 img {
+    float: left;
+}
+
+.clear_7 {
+    clear: both;
+}
+
+.blog_8 img {
+    float: left;
+}
+
+.clear_8 {
+    clear: both;
+}
+
+.blog_9 img {
+    float: left;
+}
+
+.clear_9 {
+    clear: both;
+}
+
+.blog_10 img {
+    float: left;
+}
+
+.clear_10 {
+    clear: both;
+}
+
+.blog_1 h2,
+.blog_2 h2,
+.blog_3 h2,
+.blog_4 h2,
+.blog_5 h2,
+.blog_6 h2,
+.blog_7 h2,
+.blog_8 h2,
+.blog_9 h2,
+.blog_10 h2 {
+   text-align: center;
+   padding-top: 20px;
+}
+
+.blog_1 p,
+.blog_2 p,
+.blog_3 p,
+.blog_4 p,
+.blog_5 p,
+.blog_6 p,
+.blog_7 p,
+.blog_8 p,
+.blog_9 p,
+.blog_10 p {
+    position: relative;
+    top: 10px;
+    left: 10px;
+    text-indent: 20px;
+    width: 95%;
+    text-align: justify;
+}
+
+.blog_1read,
+.blog_2read,
+.blog_3read,
+.blog_4read,
+.blog_5read,
+.blog_6read,
+.blog_7read,
+.blog_8read,
+.blog_9read,
+.blog_10read {
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid black;
+    border-radius: 5px;
+    color: black;
+    padding: 1px;
+    position: relative;
+    top: -18px;
+    left: 860px;
+}
+
+.blog_1read:hover,
+.blog_2read:hover,
+.blog_3read:hover,
+.blog_4read:hover,
+.blog_5read:hover,
+.blog_6read:hover,
+.blog_7read:hover,
+.blog_8read:hover,
+.blog_9read:hover,
+.blog_10read:hover {
+    background-color: black;
+    color: white;
+}
+
+/* blog1 */
+
+.blog1_1 img,
+.blog2_1 img,
+.blog3_1 img,
+.blog4_1 img,
+.blog5_1 img,
+.blog6_1 img,
+.blog7_1 img,
+.blog8_1 img,
+.blog9_1 img,
+.blog10_1 img {
+    width: 80%;
+    height: 600px;
+    border-radius: 8px;
+    object-fit: cover;
+    margin: 20px 0px 20px 180px;
+}
+
+.blog1_1,
+.blog2_1,
+.blog3_1,
+.blog4_1,
+.blog5_1,
+.blog6_1,
+.blog7_1,
+.blog8_1,
+.blog9_1,
+.blog10_1 {
+   width: 90%;
+   padding: 0px 0px 0px 20px;
+}
+
+.blog1_1 h1,
+.blog2_1 h1,
+.blog3_1 h1,
+.blog4_1 h1,
+.blog5_1 h1,
+.blog6_1 h1,
+.blog7_1 h1,
+.blog8_1 h1,
+.blog9_1 h1,
+.blog10_1 h1 {
+    font-family: Courgette;
+    color: #fc548c;
+    padding: 10px 0px 0px 230px;
+    font-size: 30px;
+}
+
+.blog2_1 h1,
+.blog3_1 h1,
+.blog6_1 h1,
+.blog7_1 h1,
+.blog8_1 h1,
+.blog9_1 h1 {
+    padding: 0px 0px 0px 350px;
+}
+
+.blog1_1 li,
+.blog2_1 li,
+.blog3_1 li,
+.blog4_1 li,
+.blog5_1 li,
+.blog6_1 li,
+.blog7_1 li,
+.blog8_1 li,
+.blog9_1 li,
+.blog10_1 li{
+    margin-left: 110px;
+    font-size: 22px;
+}
+
+.blog1_1 p, 
+.blog2_1 p,
+.blog3_1 p,
+.blog4_1 p,
+.blog5_1 p,
+.blog6_1 p,
+.blog7_1 p,
+.blog8_1 p,
+.blog9_1 p,
+.blog10_1 p{
+    font-size: 22px;
+    margin-left: 80px;
+    text-align: justify;
+}
+
+.blog1_1 h3,
+.blog2_1 h3,
+.blog3_1 h3,
+.blog4_1 h3,
+.blog5_1 h3,
+.blog6_1 h3,
+.blog7_1 h3,
+.blog8_1 h3,
+.blog9_1 h3,
+.blog10_1 h3{
+    font-size: 28px;
+    margin-left: 80px;
+    text-align: justify;
+}

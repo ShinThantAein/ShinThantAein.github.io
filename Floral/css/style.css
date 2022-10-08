@@ -233,7 +233,8 @@
 .service {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    background-color: #f37da4;
+    background-color: #fc397a;
+    color: white;
     margin-top: 50px;
     padding-left: 50px;
 }
@@ -255,8 +256,8 @@
 
 /* footer */
 
-.footer {
-    background-color: black;
+.footer{
+    background-color: #313131;
 }
 
 .footer .center .footer_nav {

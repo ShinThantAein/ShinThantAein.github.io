@@ -4,9 +4,9 @@
 }
 
 .shop_first img {
-    margin-left: 20px;
-    width: 50%;
-    height: 500px;
+    margin-left: 50px;
+    width: 60%;
+    height: 480px;
     float: left;
     object-fit: cover;
     border-radius: 8px;
@@ -16,10 +16,12 @@
     clear: both;
 }
 
-.shop_list li {
+.shop_first p {
+    font-size: 23px;
+    font-family: Courgette;
     position: relative;
     left: 30px;
-    top: 20px;
+    top: 30px;
     width: 90%;
     text-align: justify;
 }

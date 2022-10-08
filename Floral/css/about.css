@@ -16,6 +16,7 @@
 
 .h1_first {
     font-size: 40px;
+    font-weight: unset;
     font-family: Courgette;
     color: #f37da4;
     text-align: center;
@@ -32,7 +33,7 @@
     font-size: 22px;
     text-align: justify;
     text-indent: 28px;
-    color: #f71c65;
+    color: black;
 }
 
 .h1_second {
@@ -57,60 +58,41 @@
 
 .div_second p {
     display: inline-block;
-    font-size: 25px;
+    font-size: 22px;
     margin: -8px 0px 0px 30px;
-    color: #f71c65;
+    color: black;
 }
 
 .div_second ul {
     display: inline-block;
     font-size: 20px;
     margin: 15px 0px 0px 60px;
-    color: #f71c65;
+    color: black;
 }
 
-.choose {
-    margin-bottom: 20px;
-    color: #f37da4;
-    font-family: Courgette;
-    font-size: 40px;
-    text-align: center;
-}
-
-.fact { 
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-column-gap: 50px;
-}
-
-.fact_1 {
-    width: 70%;
-    height: 250px;
-    text-align: center;
-    position: relative;
-    left: 180px;
-    font-size: 20px;
-    color: #f37da4;
-}
-
-.fact_2 {
-    width: 70%;
-    height: 250px;
-    text-align: center;
-    position: relative;
-    left: 50px;
-    font-size: 20px;
-    color: #f37da4;
-}
-
-.center_1 {
+/* .center_1 {
     background-image: url(../Images/about8.jpg);
     border-radius: 10px;
     margin-left: 50px;
     margin-top: 40px;
+    margin-bottom: 40px;
     width: 1250px;
     height: 1000px;
-} 
+}  */
+
+.img img {
+    width: 1250px;
+    height: 1000px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 40px;
+    margin-bottom: -1000px;
+    z-index: 1;
+}
+
+.center_1 {
+    z-index: -1;
+}
 
 .center_1 h1 {
     display: inline-block;
@@ -151,5 +133,54 @@
 .div_two p,
 .div_three p {
     text-align: justify;
+    font-size: 18px;
     padding: 30px 30px 10px 30px;
+}
+
+.choose {
+    margin-top: 130px;
+    margin-bottom: 20px;
+    color: #f37da4;
+    font-family: Courgette;
+    font-size: 40px;
+    font-weight: unset;
+    text-align: center;
+}
+
+.fact { 
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 50px;
+}
+
+.fact_1 {
+    width: 70%;
+    height: 250px;
+    text-align: center;
+    position: relative;
+    left: 180px;
+    font-size: 20px;
+    color: #f37da4;
+}
+
+.fact_2 {
+    width: 70%;
+    height: 250px;
+    text-align: center;
+    position: relative;
+    left: 50px;
+    font-size: 20px;
+    color: #f37da4;
+}
+
+.fact_1 h3,p {
+    color: black;
+}
+
+.fact_2 h3,p {
+    color: black;
+}
+
+.service_icon p {
+    color: white;
 }

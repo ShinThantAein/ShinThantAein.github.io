@@ -48,17 +48,14 @@
 
 .contact_0 h2 {
     font-family: Courgette;
+    font-size: 30px;
     color: #f54d85;
     text-align: center;
     margin-top: 10px;
 }
 
 .contact_1 h1 {
-    font-size: 20px;
-}
-
-.contact_1 p {
-    font-size: 15px;
+    font-size: 22px;
 }
 
 .contact_1 {
@@ -156,6 +153,7 @@ textarea[name="text"]:focus {
     border: 1px solid rgb(247, 60, 60);
     background-color: #f54d85;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .input {

@@ -107,7 +107,12 @@
 }
 
 .shop_now {
+    display: inline-block;
+    text-decoration: none;
     border: 1px solid #f37da4;
+    width: 60px;
+    height: 20px;
+    font-size: 14px;
     color: white;
     background-color: #f37da4;
     border-radius: 5px;
@@ -190,7 +195,7 @@
 .rose {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    background-image: url(../Images/back3.jpg);
+    background-image: url(../Images/home1.jpg);
     margin-top: 50px;
     text-align: center;
     color: black;

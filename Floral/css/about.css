@@ -70,16 +70,6 @@
     color: black;
 }
 
-/* .center_1 {
-    background-image: url(../Images/about8.jpg);
-    border-radius: 10px;
-    margin-left: 50px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    width: 1250px;
-    height: 1000px;
-}  */
-
 .img img {
     width: 1250px;
     height: 1000px;
@@ -101,7 +91,7 @@
     color: black;
     margin-top: 20px;
     margin-left: 550px;
-}
+} 
 
 .p_one {
     margin: 30px 250px 30px 250px;

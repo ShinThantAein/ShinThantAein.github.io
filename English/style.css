@@ -1,0 +1,70 @@
+@font-face {
+    font-family: Courgette;
+    src: url(Courgette/Courgette-Regular.ttf);
+}
+
+.title {
+    font-family: Courgette;
+    font-size: 40px;
+    color: #0f5ed4;
+    text-align: center;
+}
+
+.topic_title {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.topic_title div {
+    border: 1px solid #edf0f3;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.topic_title img{
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+a:link {
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+a:hover {
+    color: #0ea4b8;
+    font-size: 33px;
+}
+
+/* Travel */
+
+.each_topic {
+    font-family: Courgette;
+    font-size: 50px;
+    color: #0f0f0f;
+    text-align: center;
+}
+
+.big_img {
+    width: 1000px;
+    height: 500px;
+    margin-left: 180px;
+    border-radius: 10px;
+}
+
+.intro {
+    font-size: 30px;
+    text-indent: 30px;
+}
+
+.facts {
+    font-size: 30px;
+    margin: 20px 0px 0px 170px;
+    line-height: 50px;
+    font-family: courgette;
+}
